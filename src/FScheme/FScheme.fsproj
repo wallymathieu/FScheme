@@ -4,13 +4,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FScheme.fs" />
-    <Compile Include="World.fs" />
-    <!--
-    <Compile Include="Main.fs" />
-  -->
-    <Content Include="Prelude.scm"/>
-    <Content Include="Balls.scm"/>
-    <Content Include="Pong.scm"/>
+    <Content Include="Prelude.scm" />
+    <Content Include="Balls.scm" />
+    <Content Include="Pong.scm" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FSharp.Core" Version="4.2.3" />
